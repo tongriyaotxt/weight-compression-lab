@@ -1,0 +1,33 @@
+# --- 大文件：模型产物与码流不进仓库 ---
+labs/qec/*.bin
+labs/qec/*.qec.bin
+labs/dz/models/
+*.pt
+*.pth
+*.safetensors
+*.gguf
+
+# --- 运行产物 ---
+labs/dz/runs.csv
+labs/dz/*.log
+labs/qec/*.json
+
+# --- 本机 / 敏感 ---
+models/
+runs/
+cad_mcp.log
+*.log
+.env
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+labs/dz/*.npy
+labs/dz/sweep*
+labs/dz/*.ps1
